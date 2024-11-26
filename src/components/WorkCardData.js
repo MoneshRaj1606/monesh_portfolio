@@ -1,6 +1,7 @@
 import pros1 from "../assests/project1.webp"
 import pros2 from "../assests/project2.png"
 import pros3 from "../assests/project3.jpg"
+import pros4 from "../assests/emp.jpg"
 const ProjectCardData =[
     {
         imgsrc: pros1,
@@ -22,6 +23,12 @@ const ProjectCardData =[
         title: "Mobile app using TMDB Api ",
         text: " Designed a mobile app leveraging the TMDB API to fetch and display movie data, using HTML, CSS, and JavaScript for the frontend interface,Implemented features such as dynamic search functionality, movie details display, and user-friendly navigation, enhancing the user experience and interaction with over 10,000 movie entries",
         view: "https://github.com/MoneshRaj1606"
+    },
+    {
+        imgsrc: pros4,
+        title: "Employee Management System",
+        text: "Utilized Spring Boot, Spring JPA, and MySQL for the backend, enabling efficient CRUD operations. Integrated responsive frontend with React (Vite) and Axios for seamless data handling and real-time updates Ensured seamless backend-to-database interactions by thoroughly testing API requests with Postman, improving reliability and accuracy in data management and user operations.",
+        view: "https://github.com/MoneshRaj1606/Employee_Management"
     },
     
 
